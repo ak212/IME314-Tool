@@ -1,6 +1,5 @@
 import sys
 
-from PyQt4.QtCore import pyqtSlot
 from PyQt4.QtGui import (QWidget, QLabel, QLineEdit, QSizePolicy, QPushButton,
                           QApplication)
 
