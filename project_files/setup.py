@@ -6,7 +6,8 @@ setup(
     options={
             'py2exe':
             {
-                    'includes': ['PyQt4.QtGui', 'PyQt4.QtCore', 'sip'],
+                    'includes': ['PyQt4.QtGui', 'PyQt4.QtCore', 'sip',
+                                 'calculations', 'simpleeval'],
             }
     }
 )
