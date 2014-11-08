@@ -1,6 +1,6 @@
 # -*- mode: python -*-
 a = Analysis(['.\\IME_314_Tool.py'],
-             pathex=['C:\\Users\\Aaron\\git\\IME314-Tool\\project_files'],
+             pathex=['C:\\Users\\Aaron\\git\\IME314-Tool'],
              hiddenimports=[],
              hookspath=None,
              runtime_hooks=None)
