@@ -1,4 +1,4 @@
-('C:\\Users\\Aaron\\git\\IME314-Tool\\build\\IME_314_Tool\\IME_314_Tool.exe',
+('C:\\Users\\Aaron\\git\\IME314-Tool\\dist\\IME_314_Tool.exe',
  True,
  False,
  None,
@@ -6,4 +6,4 @@
  [],
  None,
  False,
- 1415428942L)
+ 1415430242L)

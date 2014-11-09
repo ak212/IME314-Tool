@@ -543,13 +543,13 @@ posix: None -> None
   DEL posix
 posix: None -> None
   DEL posix
-__main__: <PyScript '__main__' C:\Python27\lib\site-packages\pyinstaller-2.1-py2.7.egg\PyInstaller\loader\pyi_os_path.py imports=[('sys', 0, 0, -1), ('posix.environ', 0, 1, -1), ('nt.listdir', 0, 1, -1), ('nt.environ', 0, 1, -1), ('posix', 0, 1, -1), ('posix.listdir', 0, 1, -1), ('nt', 0, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' .\IME_314_Tool.py imports=[('sys', 0, 0, -1), ('PyQt4.QtGui', 0, 0, -1), ('PyQt4.QtGui.QSizePolicy', 0, 0, -1), ('PyQt4.QtGui.QLineEdit', 0, 0, -1), ('simpleeval', 0, 0, -1), ('PyQt4.QtGui.QLabel', 0, 0, -1), ('PyQt4.QtGui.QPushButton', 0, 0, -1), ('PyQt4.QtGui.QApplication', 0, 0, -1), ('calculations', 0, 0, -1), ('simpleeval.simple_eval', 0, 0, -1), ('PyQt4.QtGui.QWidget', 0, 0, -1)] binaries=[] datas=[]>
+__main__: <PyScript '__main__' C:\Python27\lib\site-packages\pyinstaller-2.1-py2.7.egg\PyInstaller\loader\pyi_os_path.py imports=[('sys', 0, 0, -1), ('posix.environ', 0, 1, -1), ('nt.listdir', 0, 1, -1), ('nt.environ', 0, 1, -1), ('posix', 0, 1, -1), ('posix.listdir', 0, 1, -1), ('nt', 0, 1, -1)] binaries=[] datas=[]> -> <PyScript '__main__' .\IME_314_Tool.py imports=[('sys', 0, 0, -1), ('PyQt4.QtGui', 0, 0, -1), ('PyQt4.QtGui.QSizePolicy', 0, 0, -1), ('PyQt4.QtGui.QLineEdit', 0, 0, -1), ('simpleeval', 0, 0, -1), ('sip', 0, 0, -1), ('PyQt4.QtGui.QLabel', 0, 0, -1), ('PyQt4.QtGui.QPushButton', 0, 0, -1), ('PyQt4.QtGui.QApplication', 0, 0, -1), ('calculations', 0, 0, -1), ('simpleeval.simple_eval', 0, 0, -1), ('PyQt4.QtGui.QWidget', 0, 0, -1)] binaries=[] datas=[]>
 PyQt4: None -> <PkgModule 'PyQt4' C:\Users\Aaron\AppData\Roaming\Python\Python27\site-packages\PyQt4\__init__.pyc imports=[('sip', 0, 0, -1), ('PyQt4._qt', 0, 0, -1)] binaries=[] datas=[]>
 PyQt4.QtGui: None -> <ExtensionModule 'PyQt4.QtGui' C:\Users\Aaron\AppData\Roaming\Python\Python27\site-packages\PyQt4\QtGui.pyd imports=[('sip', 0, 0, -1), ('PyQt4.QtCore', 0, 0, -1), ('PyQt4._qt', 0, 0, -1)] binaries=[] datas=[]>
 simpleeval: None -> <PyModule 'simpleeval' C:\Users\Aaron\git\IME314-Tool\simpleeval.pyc imports=[('random', 0, 0, -1), ('random.random', 0, 0, -1), ('ast', 0, 0, -1), ('operator', 0, 0, -1)] binaries=[] datas=[]>
+sip: None -> <ExtensionModule 'sip' C:\Users\Aaron\AppData\Roaming\Python\Python27\site-packages\sip.pyd imports=[] binaries=[] datas=[]>
 calculations: None -> <PyModule 'calculations' C:\Users\Aaron\git\IME314-Tool\calculations.pyc imports=[('math.pow', 0, 0, -1), ('math', 0, 0, -1)] binaries=[] datas=[]>
 PyQt4.sip: None -> None
-sip: None -> <ExtensionModule 'sip' C:\Users\Aaron\AppData\Roaming\Python\Python27\site-packages\sip.pyd imports=[] binaries=[] datas=[]>
 PyQt4.PyQt4: None -> None
 PyQt4._qt: None -> None
   DEL PyQt4._qt
@@ -588,7 +588,7 @@ org: None -> None
 org: None -> None
   DEL org
 _ast: None -> <BuiltinModule '_ast' None imports=[] binaries=[] datas=[]>
-__main__: <PyScript '__main__' .\IME_314_Tool.py imports=[('sys', 0, 0, -1), ('PyQt4.QtGui', 0, 0, -1), ('PyQt4.QtGui.QSizePolicy', 0, 0, -1), ('PyQt4.QtGui.QLineEdit', 0, 0, -1), ('simpleeval', 0, 0, -1), ('PyQt4.QtGui.QLabel', 0, 0, -1), ('PyQt4.QtGui.QPushButton', 0, 0, -1), ('PyQt4.QtGui.QApplication', 0, 0, -1), ('calculations', 0, 0, -1), ('simpleeval.simple_eval', 0, 0, -1), ('PyQt4.QtGui.QWidget', 0, 0, -1)] binaries=[] datas=[]> -> <PyScript '__main__' C:\Python27\lib\site-packages\pyinstaller-2.1-py2.7.egg\PyInstaller\loader\rthooks\pyi_rth_qt4plugins.py imports=[('os', 0, 0, -1), ('PyQt4.QtCore.QCoreApplication', 0, 0, -1), ('sys', 0, 0, -1), ('PyQt4.QtCore', 0, 0, -1)] binaries=[] datas=[]>
+__main__: <PyScript '__main__' .\IME_314_Tool.py imports=[('sys', 0, 0, -1), ('PyQt4.QtGui', 0, 0, -1), ('PyQt4.QtGui.QSizePolicy', 0, 0, -1), ('PyQt4.QtGui.QLineEdit', 0, 0, -1), ('simpleeval', 0, 0, -1), ('sip', 0, 0, -1), ('PyQt4.QtGui.QLabel', 0, 0, -1), ('PyQt4.QtGui.QPushButton', 0, 0, -1), ('PyQt4.QtGui.QApplication', 0, 0, -1), ('calculations', 0, 0, -1), ('simpleeval.simple_eval', 0, 0, -1), ('PyQt4.QtGui.QWidget', 0, 0, -1)] binaries=[] datas=[]> -> <PyScript '__main__' C:\Python27\lib\site-packages\pyinstaller-2.1-py2.7.egg\PyInstaller\loader\rthooks\pyi_rth_qt4plugins.py imports=[('os', 0, 0, -1), ('PyQt4.QtCore.QCoreApplication', 0, 0, -1), ('sys', 0, 0, -1), ('PyQt4.QtCore', 0, 0, -1)] binaries=[] datas=[]>
 posix: None -> None
   DEL posix
 posix: None -> None
