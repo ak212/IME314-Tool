@@ -1,5 +1,5 @@
 # -*- mode: python -*-
-a = Analysis(['.\\IME_314_Tool.py'],
+a = Analysis(['.\\project_files\\IME_314_Tool.py'],
              pathex=['C:\\Users\\Aaron\\git\\IME314-Tool'],
              hiddenimports=[],
              hookspath=None,
@@ -7,11 +7,16 @@ a = Analysis(['.\\IME_314_Tool.py'],
 pyz = PYZ(a.pure)
 exe = EXE(pyz,
           a.scripts,
-          a.binaries,
-          a.zipfiles,
-          a.datas,
+          exclude_binaries=True,
           name='IME_314_Tool.exe',
           debug=False,
           strip=None,
           upx=True,
           console=True )
+coll = COLLECT(exe,
+               a.binaries,
+               a.zipfiles,
+               a.datas,
+               strip=None,
+               upx=True,
+               name='IME_314_Tool')
