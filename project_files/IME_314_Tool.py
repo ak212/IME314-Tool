@@ -204,6 +204,7 @@ class Window(QWidget):
       self.clearAllButton.move(430, 350)
       self.clearAllButton.clicked.connect(self.clear_values)
       
+      #Author label
       self.author = QLabel("Created by: " + __author__, self)
       self.author.move(455, 385)
       
@@ -218,7 +219,7 @@ class Window(QWidget):
    
    def update_value(self, button, calc):
       interest = float(simple_eval(str(self.interestEdit.text())))
-      period = int(simple_eval(str(self.periodEdit.text())))
+      period = float(simple_eval(str(self.periodEdit.text())))
       
       self.factor = calculations.Factors(interest, period)
       calc = calc(self.factor)
