@@ -17,7 +17,7 @@ def FoP(factor):
    return pow(1 + factor.i, factor.n)
 
 def PoF(factor):
-   return pow(1 + factor.i, factor.n)
+   return 1 / FoP(factor)
 
 
 def PoA(factor):
